@@ -49,7 +49,7 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
-const Experience = () => {
+const Experiences = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -68,4 +68,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, 'work');
+export default SectionWrapper(Experiences, 'work');

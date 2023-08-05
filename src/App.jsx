@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Experience from './components/EXperience';
+import Experience from './components/Experiences';
 import Tech from './components/Tech';
 import Works from './components/Works';
 import Feedback from './components/Feedback';

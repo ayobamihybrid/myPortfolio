@@ -17,11 +17,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
-
   };
-
-
 
   return (
     <div className="flex flex-col-reverse gap-10 xl:mt-12 xl:flex-row">
